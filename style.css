@@ -1,0 +1,43 @@
+html, body
+{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.wrapper{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-title{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Merienda', cursive;
+    font-size: 84px;
+}
+
+.hero-title .letter{
+    display: inline-block;
+    opacity: 0;
+}
+
+.para
+{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+}

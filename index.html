@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <title>Animation</title>
+</head>
+
+<body>
+    <div class="wrapper"></div>
+    <div class="hero-title">
+        <h1>OFFBEAT</h1>
+    </div>
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js"
+        integrity="sha512-NLtnLBS9Q2w7GKK9rKxdtgL7rA7CAS85uC/0xd9im4J/yOL4F9ZVlv634NAM7run8hz3wI2GabaA6vv8vJtHiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./hover.js"></script>
+    <script src="./app.js"></script>
+
+    <script>
+        var hoverDistort = new hoverEffect({
+            parent: document.querySelector('.wrapper'),
+            intensity: 0.5,
+            image1: '1.jpg',
+            image2: '2.jpg',
+            displacementImage: 'diss.png'
+        });
+    </script>
+</body>
+
+</html>
